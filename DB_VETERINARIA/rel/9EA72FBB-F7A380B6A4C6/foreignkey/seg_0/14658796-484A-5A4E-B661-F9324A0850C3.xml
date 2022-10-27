@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14658796-484A-5A4E-B661-F9324A0850C3" containerWithKeyObject="E7F9C7B0-0F91-F0C7-6090-232EA812F2C2" localFKIndex="D883515D-F380-ECF3-9C86-5CB4DD6B4E8B" name="HISTORIAL_CLINICO_CRON_VACUNACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<referredTableLongName>CRON_VACUNACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F52CED9-3AD0-D009-89DD-8DC1EABEC01A</referredTableID>
+<keyObject>ACED6E3E-8720-4BE3-697C-A61050E448AC</keyObject>
+<referredKeyID>ACED6E3E-8720-4BE3-697C-A61050E448AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdCronogramaVacunacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

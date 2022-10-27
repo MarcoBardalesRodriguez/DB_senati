@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PRODUCTO_CRON-VACUNACION" directorySegmentName="seg_0" id="38D09DBD-C486-172A-292E-C4FC6F3208C3">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 17:29:56 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>se encuentra</nameOnSource>
+<nameOnTarget>incluye</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F7F6353F-0AC2-7F7C-6614-9AE29DBA111E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BFDAC8E3-48FE-0FA6-AB3E-AE21460CA39E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

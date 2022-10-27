@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7CA8AB9-58CF-1CBA-FB33-7C81E7071ACA" name="CATEGORIA">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>16C563A5-4223-4EA2-3E3E-F22B373ABBEF</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CATEGORIA_ID" id="61E728CF-696D-B5B4-3452-E9BC75E21F4B">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="IdCategoria" id="EDD1A2F6-10A3-5448-81B1-D39166CB4141">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>944AD9AF-C766-9FA1-12B4-D8844F7F4300</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="1E410BCC-BB58-8D37-DEDA-34B61078D85C">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>CB285A12-D6B9-0DF5-5210-7AA95DBDB997</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="DF4E88BC-A1DE-2150-890B-5B908BF24C27">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>CD270EFB-36B6-3FCD-9E98-AB76B58C4B23</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<ownDataTypeParameters>230,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84421FF7-E82E-2A11-4645-2F9F435DC8DB" name="CATEGORIA_PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="61E728CF-696D-B5B4-3452-E9BC75E21F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F671DEA2-F45C-6817-C24F-80E92AF5C94F" name="CATEGORIA_IdCategoria_UN">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>028BABB9-0709-5525-1CE6-C52DB1AF870D</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDD1A2F6-10A3-5448-81B1-D39166CB4141"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

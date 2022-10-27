@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1F452C9-5673-D1F9-0238-7B9F95EDC907" name="VETERINARIO">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 14:43:14 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdVeterinario" id="F9B37336-D841-0338-E5EB-74224720DD20">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:17:28 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="BAA51B9F-2BDE-8F83-9DB1-33EEADA06DA8">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:17:52 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="74E2F7CA-B968-42E1-410A-5086A5CA9F5E">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:18:10 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dni" id="31908BD7-90EC-F92C-FA4E-1B187B217253">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:18:31 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="C6A110A7-8AE5-3A0F-B3DB-A83C29ED35E2">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:20:13 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="F3722413-020D-6204-2429-2DD0D6A7E6D3">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:20:41 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Celular" id="32BE5C2B-0A93-66B4-28C4-149B659DD513">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:20:55 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="6F05562B-61C1-2441-3961-73A6ED31CFBB">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:21:20 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ruc" id="F4F1F7B0-95E6-E5C3-A467-5B08E3EC9A05">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:21:41 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="759AD03D-CEA0-BD5D-19BA-0217924AA93B" name="VETERINARIO PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:17:47 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9B37336-D841-0338-E5EB-74224720DD20</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="5C463ADA-BFB6-EA04-49FE-8BCFDACEE41A" name="Dniv1">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:19:44 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<newElementsIDs>31908BD7-90EC-F92C-FA4E-1B187B217253</newElementsIDs>
+<usedAttributes>
+<attributeRef>31908BD7-90EC-F92C-FA4E-1B187B217253</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

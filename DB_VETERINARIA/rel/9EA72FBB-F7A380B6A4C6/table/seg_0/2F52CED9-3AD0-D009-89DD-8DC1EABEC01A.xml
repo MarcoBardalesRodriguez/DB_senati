@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F52CED9-3AD0-D009-89DD-8DC1EABEC01A" name="CRON_VACUNACION">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>BFDAC8E3-48FE-0FA6-AB3E-AE21460CA39E</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CRONOGRAMA_VACUNACION_ID" id="8CCEBBE2-EACE-6279-668D-B39E81F0745C">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="HISTORIAL_CLINICO_HISTORIAL_CLINICO_ID" id="90F20167-E3D3-FF4C-CF79-CECC3E14EE87">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdHistorialClinico" id="05C6FBBC-231B-C881-B830-9F204F930A5F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>81FDF3F4-95C9-CCD0-5176-6CAAB9D46321</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8CF8CDE-CB8A-E06F-B26F-92CD0978CA72" referredColumn="A59076E5-43F0-C931-5EDE-F7E23D5C736F"/>
+</associations>
+</Column>
+<Column name="IdCronogramaVacunacion" id="851A0D61-641D-E345-A29E-8C650DF01DF7">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>F904817C-87E4-FD0B-3A1B-86CAC00A79D0</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaInicio" id="43DB7D7F-9393-375C-4897-301AED740487">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>6B7079E8-8701-9C5F-A75A-8BAB26E6A85A</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaFin" id="881D1E4C-420C-C03E-3F2E-825DD93BF7DE">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>D0BDE7B5-DE8D-E01F-5D21-19756483665F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaSigteDosis" id="4F29C711-50AD-1F18-7E26-E1AC0E7A5544">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>C3EC2B97-6898-722C-96D9-5E95B21CA382</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumDosisActual" id="F3C9A420-B8F5-1E9F-9A61-28B950AC5762">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>30444E19-B2C2-F0FA-485E-34900CC97E3E</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38FED09A-31AF-1653-1FB5-C525386E35D7" name="CRONOGRAMA_VACUNACION_PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8CCEBBE2-EACE-6279-668D-B39E81F0745C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACED6E3E-8720-4BE3-697C-A61050E448AC" name="CRON_VACUNACION_IdCronogramaVacunacion_UN">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>99540678-C9BD-D4B7-00A8-A119BE4D99D4</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851A0D61-641D-E345-A29E-8C650DF01DF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59082011-43E2-843D-1509-1D209B0D45DB" name="CRONOGRAMA_VACUNACION__IDX">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="90F20167-E3D3-FF4C-CF79-CECC3E14EE87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="700214EE-D461-E8A9-4C65-DC3C8B6E75DB" name="CRON_VACUNACION__IDX">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="05C6FBBC-231B-C881-B830-9F204F930A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06AD9E9B-5E3E-51BD-4CD1-C355048CE933" name="CRONOGRAMA_VACUNACION_HISTORIAL_CLINICO_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05C6FBBC-231B-C881-B830-9F204F930A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

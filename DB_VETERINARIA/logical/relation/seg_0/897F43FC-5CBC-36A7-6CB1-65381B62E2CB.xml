@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_MASCOTA" directorySegmentName="seg_0" id="897F43FC-5CBC-36A7-6CB1-65381B62E2CB">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 14:59:36 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<sourcePk>C9543D64-15AB-068C-DC8F-DE67DBE2359F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3004D06C-E7A2-99A0-DAA4-1A401EB04C17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>857CBA7E-08D9-940A-55FC-571DE81A8F9D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

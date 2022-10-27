@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="71FFB0F6-5BAE-B08D-B1D5-8E3CB3C44980" name="PRODUCTO">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>F7F6353F-0AC2-7F7C-6614-9AE29DBA111E</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_ID" id="511A5B0E-1348-017B-6FD4-42A3BA37EBBD">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="CATEGORIA_CATEGORIA_ID" id="35C3BE23-8195-4248-0DAE-C6A6D2743E2A">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_PROVEEDOR_ID" id="451126C6-28A5-3FE0-4F59-AA399ED775B2">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdCategoria" id="CA4DB6AD-1746-D1AD-5541-A3DD131A95CB">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>E1A66177-5566-47EA-E36E-9D542FFBEBE3</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FF11E46-7063-D40B-B757-7C5C236FFAD5" referredColumn="EDD1A2F6-10A3-5448-81B1-D39166CB4141"/>
+</associations>
+</Column>
+<Column name="IdProducto" id="FB94598A-634A-19D9-D4C9-3372E05CC91F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>38469BAA-B99E-D3CC-70C1-80BDF68EC2B8</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="1C33AE3A-C12E-A2F4-A9E3-33E7DDB5A929">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>FB3E13FD-1F6B-4543-AA75-CF00E245C997</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="544EF35B-1ADA-6B0D-745B-8B2CBE0A0F11">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>57CD67FF-95A3-94E8-F7E9-93C3A6D005F0</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock" id="F81F6553-9781-4F21-D595-D33C4271E254">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>4E9C336B-929C-9296-A9E8-2642467D0569</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdProveedor" id="C4850866-27E5-4D76-2DDC-4D5CCC36783D">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>9900FDCD-A103-B545-F74C-B50B914B0175</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44BFB39D-85EB-85EC-D7A5-CB186B69BFBE" referredColumn="D9675EF3-15B2-34B6-FE2C-B885FDE741D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7F7DDA5-52B7-5B08-40F5-53B8918624E3" name="PRODUCTO_PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="511A5B0E-1348-017B-6FD4-42A3BA37EBBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78BBF9B1-B03F-1CF8-76B1-9F4ABEF41A6E" name="PRODUCTO_IdCategoria_IdProducto_IdProveedor_UN">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>A1400360-1546-D6C4-7E6C-C2795C504D4F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA4DB6AD-1746-D1AD-5541-A3DD131A95CB"/>
+<colUsage columnID="FB94598A-634A-19D9-D4C9-3372E05CC91F"/>
+<colUsage columnID="C4850866-27E5-4D76-2DDC-4D5CCC36783D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B375728C-73D6-D8BD-7EE7-740F3068D604" name="PRODUCTO_CATEGORIA_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>3E2AE714-8436-4A92-6AE7-2D074DBC56F2</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA4DB6AD-1746-D1AD-5541-A3DD131A95CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AD5D00B-F7F0-9926-1D5B-67D63CF20617" name="PRODUCTO_PROVEEDOR_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>E0F064CF-741A-BB74-97FD-32FC80F663F6</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4850866-27E5-4D76-2DDC-4D5CCC36783D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

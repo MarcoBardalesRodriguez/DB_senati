@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A7E7763-D5A1-F15F-A1DE-8C9ABFE89351" name="INSUMO">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 14:55:53 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdCategoria" id="79E00A97-4BCA-720E-ED75-F2616421232A">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:27:57 UTC</createdTime>
+<generatorID>2A655B09-8685-B12A-2802-067CFC35A122</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<referedAttribute>944AD9AF-C766-9FA1-12B4-D8844F7F4300</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdInsumo" id="E6078D56-0174-834F-EF44-6EDC0195469F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:33:58 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="410AECFA-F6C1-67D9-D22D-33D99D316F8D">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:34:29 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="EBE863B8-443C-E514-5F74-38957EF65350">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:34:53 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stock" id="2670F9BE-B136-B0E8-928B-8A3EC409E8A2">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:35:12 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProveedor" id="BBB9646E-D67F-8FAF-35D9-BECDC276A99E">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:36:33 UTC</createdTime>
+<generatorID>8FAA259A-08BB-763A-D8C4-99BB90BB5A63</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<referedAttribute>8CB4DF36-AF75-2278-019B-F0FE74133E93</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5303C428-BB97-D4AC-EF32-90DAA0A9AA79" name="INSUMO PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:27:56 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79E00A97-4BCA-720E-ED75-F2616421232A</attributeRef>
+<attributeRef>E6078D56-0174-834F-EF44-6EDC0195469F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

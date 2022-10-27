@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_VETERINARIA" id="9BCED1E5-DB6F-971E-A0D6-BCC86E7F7CF5" version="3.5">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 14:40:03 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9BCED1E5-DB6F-971E-A0D6-BCC86E7F7CF5</designId>
+</OSDM_Design>

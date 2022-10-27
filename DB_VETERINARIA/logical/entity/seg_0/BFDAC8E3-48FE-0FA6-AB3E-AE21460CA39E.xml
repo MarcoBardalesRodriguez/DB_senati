@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFDAC8E3-48FE-0FA6-AB3E-AE21460CA39E" name="CRON_VACUNACION">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 14:56:24 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdHistorialClinico" id="81FDF3F4-95C9-CCD0-5176-6CAAB9D46321">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:52:49 UTC</createdTime>
+<generatorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<referedAttribute>C0080864-A2ED-1648-45FC-DCAD7C9EB8E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdCronogramaVacunacion" id="F904817C-87E4-FD0B-3A1B-86CAC00A79D0">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:50:32 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaInicio" id="6B7079E8-8701-9C5F-A75A-8BAB26E6A85A">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:53:28 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFin" id="D0BDE7B5-DE8D-E01F-5D21-19756483665F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:54:30 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaSigteDosis" id="C3EC2B97-6898-722C-96D9-5E95B21CA382">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:55:37 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumDosisActual" id="30444E19-B2C2-F0FA-485E-34900CC97E3E">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:56:01 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99540678-C9BD-D4B7-00A8-A119BE4D99D4" name="CRON_VACUNACION PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 16:50:58 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F904817C-87E4-FD0B-3A1B-86CAC00A79D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

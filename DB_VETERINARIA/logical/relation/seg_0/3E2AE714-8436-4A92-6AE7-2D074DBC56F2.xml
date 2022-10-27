@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CATEGORIA_PRODUCTOv2" directorySegmentName="seg_0" id="3E2AE714-8436-4A92-6AE7-2D074DBC56F2">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 13:40:31 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<sourcePk>028BABB9-0709-5525-1CE6-C52DB1AF870D</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>posee</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>16C563A5-4223-4EA2-3E3E-F22B373ABBEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7F6353F-0AC2-7F7C-6614-9AE29DBA111E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

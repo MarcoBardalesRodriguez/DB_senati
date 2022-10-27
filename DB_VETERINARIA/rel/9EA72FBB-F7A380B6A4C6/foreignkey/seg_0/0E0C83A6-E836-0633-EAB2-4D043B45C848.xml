@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E0C83A6-E836-0633-EAB2-4D043B45C848" containerWithKeyObject="CC2F01F6-BE2D-C763-4E5E-5AE748F1CAA1" localFKIndex="CCA66B97-FA0E-B701-7F82-C36BFF9B19B6" name="PRODUCTO_CRONOGRAMA_DESPARACITACION_CRONOGRAMA_DESPARACITACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>401E0D53-5F5C-31BF-6205-EEE14CA0A895</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<referredTableLongName>CRONOGRAMA_DESPARACITACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>004A8E6D-C8D7-6B07-523D-0693F37FD9C9</referredTableID>
+<keyObject>6472F73A-C615-47FD-38F6-C1E5BCF14C82</keyObject>
+<referredKeyID>6472F73A-C615-47FD-38F6-C1E5BCF14C82</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CRONOGRAMA_DESPARACITACION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

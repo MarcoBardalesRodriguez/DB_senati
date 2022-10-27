@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7DA1C538-2B7E-92A7-60B2-AB98229697DA" containerWithKeyObject="740D50AF-DC57-0E89-7B75-973B1837EFBC" localFKIndex="DA5A78ED-9812-CED9-6E65-B400082E3029" name="PRODUCTO_CRONOGRAMA-VACUNACION_CRONOGRAMA_VACUNACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>25AB66E0-3F87-00A0-D0F7-E03A2BAFBD39</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<referredTableLongName>CRONOGRAMA_VACUNACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F52CED9-3AD0-D009-89DD-8DC1EABEC01A</referredTableID>
+<keyObject>38FED09A-31AF-1653-1FB5-C525386E35D7</keyObject>
+<referredKeyID>38FED09A-31AF-1653-1FB5-C525386E35D7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CRONOGRAMA_VACUNACION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MASCOTA_HISTORIAL-CLINICO" directorySegmentName="seg_0" id="118666CF-2923-6FD8-8A51-04ABEDB07872">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 15:12:43 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<sourcePk>1F78D24A-6002-77AC-12F0-15A5E38C593B</sourcePk>
+<targetPk>84CA70C1-6818-76AC-EC07-E48AB3A2F439</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>857CBA7E-08D9-940A-55FC-571DE81A8F9D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>80B9F512-7986-439D-A284-9DFDCB714EAC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

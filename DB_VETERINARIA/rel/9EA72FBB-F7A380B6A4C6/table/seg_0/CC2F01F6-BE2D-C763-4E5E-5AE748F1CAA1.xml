@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC2F01F6-BE2D-C763-4E5E-5AE748F1CAA1" name="INSUMO_CRON_DESPARACITACION">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSUMO_INSUMO_ID" id="61DF9F64-4D26-9494-0312-01D7CF049711">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA5B7DB2-A668-A810-3240-931A20071FDD" referredColumn="E3F7CCDA-E4AC-2156-FE2B-A51803193FBA"/>
+</associations>
+</Column>
+<Column name="CRONOGRAMA_DESPARACITACION_CRONOGRAMA_DESPARACITACION_ID" id="86046778-EEE4-4A80-82E5-04F93B377B2E">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E0C83A6-E836-0633-EAB2-4D043B45C848" referredColumn="8C60A37D-C208-8D18-B292-2AFA788C0ACC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="910D9CFB-59E3-959C-3296-19267F89723C" name="PRODUCTO_CRONOGRAMA_DESPARACITACION_PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DF9F64-4D26-9494-0312-01D7CF049711"/>
+<colUsage columnID="86046778-EEE4-4A80-82E5-04F93B377B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCA74951-D645-E4AA-E54A-E5AF75987FB8" name="PRODUCTO_CRONOGRAMA_DESPARACITACION_INSUMO_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>401E0D53-5F5C-31BF-6205-EEE14CA0A895</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DF9F64-4D26-9494-0312-01D7CF049711"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCA66B97-FA0E-B701-7F82-C36BFF9B19B6" name="PRODUCTO_CRONOGRAMA_DESPARACITACION_CRONOGRAMA_DESPARACITACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>401E0D53-5F5C-31BF-6205-EEE14CA0A895</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86046778-EEE4-4A80-82E5-04F93B377B2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

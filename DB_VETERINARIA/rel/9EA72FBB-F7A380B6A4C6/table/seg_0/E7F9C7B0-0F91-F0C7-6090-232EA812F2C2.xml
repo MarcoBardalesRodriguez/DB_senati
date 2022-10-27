@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7F9C7B0-0F91-F0C7-6090-232EA812F2C2" name="HISTORIAL_CLINICO">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>80B9F512-7986-439D-A284-9DFDCB714EAC</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HISTORIAL_CLINICO_ID" id="10FEBD13-34B7-C0ED-A2D4-54B01A4BFB91">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="MASCOTA_MASCOTA_ID" id="4E4E2615-EBEB-43B8-3280-18ACC6D90E9A">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdMascota" id="C978F615-9093-B07B-C6D4-3B429CF10FD9">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>D61EA4F1-DA87-11B3-9FDB-6F3D25C4AB7D</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTE_IdCliente" id="A9DEC741-0A4E-673C-185A-12BC560AA4D8">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>FB9F2B50-7A8A-956A-271A-013404B21F7D</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="299532AF-61E2-E439-BB69-C180994745BD" referredColumn="31653421-FE5D-6AB0-E231-3B5822213903"/>
+</associations>
+</Column>
+<Column name="CRON_VACUNACION_IdCronogramaVacunacion" id="C1910251-8C47-C8E8-5B1B-5526A5349E75">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>51B9AF06-D174-B640-8ADE-2F98F8241BA8</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14658796-484A-5A4E-B661-F9324A0850C3" referredColumn="851A0D61-641D-E345-A29E-8C650DF01DF7"/>
+</associations>
+</Column>
+<Column name="CRON_DESPARACITACION_IdCronogramaDesparacitacion" id="B23B31BC-00CF-8B0F-C5C7-5A1D9E96438F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>EACE5D20-FD92-0EE0-655E-3E89C5CB9D0E</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AA4F3EF-8E1C-AA1C-8936-9FDF2AE25AD6" referredColumn="456F2AEF-1101-11EE-660C-198EB1A13631"/>
+</associations>
+</Column>
+<Column name="IdHistorialClinico" id="A59076E5-43F0-C931-5EDE-F7E23D5C736F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>C0080864-A2ED-1648-45FC-DCAD7C9EB8E0</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alergias" id="87B979B1-A0ED-420C-62FC-25954FB5FE91">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>3DE17F9A-8DF4-ED0C-D6C1-D89FF2B266EE</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<ownDataTypeParameters>230,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CitaPrevia" id="02ADC4AA-CDC0-8810-D5B4-DEADDFAEB027">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>0465CBD6-9B98-A174-7F81-439EC811F57D</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC6F9226-1331-BE26-76A6-03D894D68F6C" name="HISTORIAL_CLINICO_PK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="10FEBD13-34B7-C0ED-A2D4-54B01A4BFB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F85DEF6-15AD-3756-2BDB-0245D11529A0" name="HISTORIAL_CLINICO_IdHistorialClinico_UN">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>84CA70C1-6818-76AC-EC07-E48AB3A2F439</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59076E5-43F0-C931-5EDE-F7E23D5C736F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22EC73B0-03B6-9EC5-CBEB-D901F4F65847" name="HISTORIAL_CLINICO__IDX">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>118666CF-2923-6FD8-8A51-04ABEDB07872</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4E4E2615-EBEB-43B8-3280-18ACC6D90E9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E4C1550-B34E-E3E8-8563-6E7B31A88737" name="HISTORIAL_CLINICO__IDXv1">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5C45B437-6622-5747-675A-6EBF3F856255</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B23B31BC-00CF-8B0F-C5C7-5A1D9E96438F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3B8B4E3-0B7C-9977-38FE-4441BB914682" name="HISTORIAL_CLINICO__IDXv2">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C1910251-8C47-C8E8-5B1B-5526A5349E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="663ADC10-8110-E50F-F0C0-0356D717280F" name="HISTORIAL_CLINICO__IDXv3">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>118666CF-2923-6FD8-8A51-04ABEDB07872</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C978F615-9093-B07B-C6D4-3B429CF10FD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC398E0D-021B-0064-551F-54C9CDA3E2F9" name="HISTORIAL_CLINICO_CLIENTE_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>314B1CB8-86D8-B14F-C812-E45C2FA7840B</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9DEC741-0A4E-673C-185A-12BC560AA4D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B00F65CF-8382-6E14-0F1C-A9FE70430E97" name="HISTORIAL_CLINICO_CRON_DESPARACITACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>5C45B437-6622-5747-675A-6EBF3F856255</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23B31BC-00CF-8B0F-C5C7-5A1D9E96438F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D883515D-F380-ECF3-9C86-5CB4DD6B4E8B" name="HISTORIAL_CLINICO_CRON_VACUNACION_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 17:04:26 UTC</createdTime>
+<generatorID>4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1910251-8C47-C8E8-5B1B-5526A5349E75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

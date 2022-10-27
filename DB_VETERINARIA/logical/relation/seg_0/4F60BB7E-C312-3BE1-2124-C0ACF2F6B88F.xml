@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIAL-CLINICO_CRON-VACUNACION" directorySegmentName="seg_0" id="4F60BB7E-C312-3BE1-2124-C0ACF2F6B88F">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 15:09:33 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<sourcePk>84CA70C1-6818-76AC-EC07-E48AB3A2F439</sourcePk>
+<targetPk>99540678-C9BD-D4B7-00A8-A119BE4D99D4</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>se encuentra</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80B9F512-7986-439D-A284-9DFDCB714EAC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BFDAC8E3-48FE-0FA6-AB3E-AE21460CA39E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

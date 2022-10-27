@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DA5B7DB2-A668-A810-3240-931A20071FDD" containerWithKeyObject="CC2F01F6-BE2D-C763-4E5E-5AE748F1CAA1" localFKIndex="BCA74951-D645-E4AA-E54A-E5AF75987FB8" name="PRODUCTO_CRONOGRAMA_DESPARACITACION_INSUMO_FK">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-27 14:51:33 UTC</createdTime>
+<generatorID>401E0D53-5F5C-31BF-6205-EEE14CA0A895</generatorID>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<referredTableLongName>INSUMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0981E2D0-F7F9-1AEE-F0B7-0EA77EC17A56</referredTableID>
+<keyObject>9FBD6242-90A4-8CD5-1660-7566156FE7C7</keyObject>
+<referredKeyID>9FBD6242-90A4-8CD5-1660-7566156FE7C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>INSUMO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

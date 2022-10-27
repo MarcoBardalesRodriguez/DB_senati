@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VETERINARIO_AYUDANTE" directorySegmentName="seg_0" id="07C7D831-07C8-3C13-C4EF-BDE77F895079">
+<createdBy>Estudiante_24</createdBy>
+<createdTime>2022-10-26 15:00:01 UTC</createdTime>
+<ownerDesignName>DB_VETERINARIA</ownerDesignName>
+<engineerTo>
+<item key="9EA72FBB-6094-6CAD-354C-F7A380B6A4C6" value="true"/>
+</engineerTo>
+<sourcePk>759AD03D-CEA0-BD5D-19BA-0217924AA93B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>es asistido</nameOnSource>
+<nameOnTarget>asiste</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1F452C9-5673-D1F9-0238-7B9F95EDC907</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B105C692-9C9B-BAA8-58F8-D0BE48523179</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
